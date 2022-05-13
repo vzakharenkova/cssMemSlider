@@ -19,6 +19,34 @@
     width: 100%;
     height: 85%;
 }
+#mem_field.mem_1 {
+    background: url("/cssMemSlider/assets/mem1.jpg") center no-repeat;
+    background-size: contain;
+}
+#mem_field.mem_2 {
+    background: url("/cssMemSlider/assets/mem2.jpg") center no-repeat;
+    background-size: contain;
+}
+#mem_field.mem_3 {
+    background: url("/cssMemSlider/assets/mem3.jpg") center no-repeat;
+    background-size: contain;
+}
+#mem_field.mem_4 {
+    background: url("/cssMemSlider/assets/mem4.jpg") center no-repeat;
+    background-size: contain;
+}
+#mem_field.mem_5 {
+    background: url("/cssMemSlider/assets/mem5.jpg") center no-repeat;
+    background-size: contain;
+}
+#mem_field.mem_6 {
+    background: url("/cssMemSlider/assets/mem6.jpg") center no-repeat;
+    background-size: contain;
+}
+#mem_field.mem_7 {
+    background: url("/cssMemSlider/assets/mem7.jpg") center no-repeat;
+    background-size: contain;
+}
 #description_and_control_field {
     display: flex;
     justify-content: space-between;
