@@ -1,3 +1,3 @@
 # cssMemSlider
 А сейчас я вам покажу, откуда...
-https://vzakharenkova.github.io/cssMemSlider/
+https://vzakharenkova.github.io/cssMemSlider/cssMemSlider/
