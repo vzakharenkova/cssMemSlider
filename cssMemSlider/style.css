@@ -55,12 +55,13 @@
 #description_field {
     width: 40%;
     height: 90%;
-    background-color: coral;
     margin: 0 1%;
 }
 .description {
     margin: 3% 0;
     display: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
 }
 .description_1 {
     display: block;
