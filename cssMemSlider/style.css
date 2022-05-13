@@ -1,6 +1,6 @@
 #slider-wrapper {
     margin: 0 auto;
-    background-color: brown;
+    background-color: rgba(197, 220, 238, 0.503);
     width: 90vw;
     height: 90vh;
     padding: 5vh;
@@ -9,13 +9,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: aqua;
     width: 100%;
     margin: 0 auto;
     height: 90vh;
 }
 #mem_field {
-    background-color: darkslategray;
     width: 100%;
     height: 85%;
 }
@@ -50,7 +48,7 @@
 #description_and_control_field {
     display: flex;
     justify-content: space-between;
-    background-color: beige;
+    background-color: rgba(109, 188, 249, 0.64);
     width: 100%;
     height: 10%;
 }
@@ -58,18 +56,29 @@
     width: 40%;
     height: 90%;
     background-color: coral;
+    margin: 0 1%;
+}
+.description {
+    margin: 3% 0;
 }
 #control_field {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: blue;
     width: 30%;
     height: 90%;
+    margin: 0 1%;
 }
 .controller {
     width: 10%;
     height: 68%;
-    background-color: cornflowerblue;
+    margin: 3% 0;
+    background-color: rgb(87, 146, 255);
     border-radius: 50%;
+}
+.controller .hovered {
+    background-color: rgb(10, 55, 138);
+}
+.controller.selected { 
+    background-color: rgb(255, 255, 255);
 }
