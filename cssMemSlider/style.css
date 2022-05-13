@@ -60,6 +60,10 @@
 }
 .description {
     margin: 3% 0;
+    display: none;
+}
+.description_1 {
+    display: block;
 }
 #control_field {
     display: flex;
