@@ -1,0 +1,130 @@
+#slider-wrapper {
+    margin: 0 auto;
+    background-color: rgba(197, 220, 238, 0.503);
+    width: 90vw;
+    height: 90vh;
+    padding: 5vh;
+}
+#slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    height: 90vh;
+}
+#mem_field {
+    width: 100%;
+    height: 85%;
+    transition: background-image 1s ease 0.5s, padding 5s ease-out 0s;
+}
+#mem_field.mem_1 {
+    background: url("../cssMemSlider/assets/mem1.jpg") center no-repeat;
+    background-size: contain;
+}
+#mem_field.mem_2 {
+    background: url("../cssMemSlider/assets/mem2.jpg") center no-repeat;
+    background-size: contain;
+}
+#mem_field.mem_3 {
+    background: url("../cssMemSlider/assets/mem3.jpg") center no-repeat;
+    background-size: contain;
+}
+#mem_field.mem_4 {
+    background: url("../cssMemSlider/assets/mem4.jpg") center no-repeat;
+    background-size: contain;
+}
+#mem_field.mem_5 {
+    background: url("../cssMemSlider/assets/mem5.jpg") center no-repeat;
+    background-size: contain;
+}
+#mem_field.mem_6 {
+    background: url("../cssMemSlider/assets/mem6.jpg") center no-repeat;
+    background-size: contain;
+}
+#mem_field.mem_7 {
+    background: url("../cssMemSlider/assets/mem7.jpg") center no-repeat;
+    background-size: contain;
+}
+#description_and_control_field {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(109, 188, 249, 0.64);
+    width: 100%;
+
+}
+#description_field {
+    width: 50%;
+    height: 90%;
+    margin: 0 1%;
+}
+.description {
+    margin: 3% 0;
+    display: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vh;
+    opacity: 0;
+    transition: opacity 0.5s ease-in 0.1s;
+}
+.visible {
+    opacity: 1;
+}
+.displayed {
+    display: block;
+}
+#control_field {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    height: 90%;
+    margin: 0 1%;
+}
+input[type=radio] {
+	display: none;
+}
+.controller {
+    
+    display: block;
+    width: 15%;
+    height: 70%;
+    padding: 3%;
+    cursor: pointer;
+}
+label {
+    display: block;
+    cursor: pointer;
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+    background-color: rgb(87, 146, 255);
+    transition: all 0.5s ease-in 0.1s;
+}
+label:hover, .controller:hover label {
+    background-color: rgb(10, 55, 138);
+}
+input[type=radio]:checked + label { 
+    background-color: rgb(255, 255, 255);
+}
+@media (max-width: 1150px) {
+    #control_field {
+        width: 40%;
+    }
+}
+
+@media (max-width: 850px) {
+    #description_and_control_field {
+        flex-direction: column-reverse;
+    }
+    #description_field {
+        width: 100%;
+        align-self: flex-start;
+    }
+    #control_field {
+        justify-content: space-around;
+        width: 50%;
+        align-self: center;
+    }
+}
+

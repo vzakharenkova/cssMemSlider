@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mem Slider</title>
+        <link rel="icon" type="image/x-icon" href="../cssMemSlider/assets/favicon.ico">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="slider-wrapper">
+            <div id="slider">
+                <div id="mem_field" class="mem_1">
+                    
+                </div>
+                <div id="description_and_control_field">
+                    <div id="description_field">
+                        <div class="description description_1 displayed visible">&#129313; А сейчас я вам покажу, откуда…</div>
+                        <div class="description description_2">&#128123; Вот в пижаме это Я</div>
+                        <div class="description description_3">&#128571; Для сильной независимой</div>
+                        <div class="description description_4">&#129322; Вся жизнь - это Уилл Смит, а я в ней - Крис Рок</div>
+                        <div class="description description_5">&#129392; Если тебе грустно, то повтори за собачкой</div>
+                        <div class="description description_6">&#128131; Всё тип-топ - каблучки, макияж</div>
+                        <div class="description description_7">&#129437; &#127919; Выстави максимальный балл и пушистик не пострадает</div>
+                    </div>
+                    <div id="control_field">
+                        <div class="controller">
+                            <input type="radio" name="radio" checked id="controller_1" onclick="document.querySelector('#mem_field').removeAttribute('class'); 
+                            document.querySelector('#mem_field').classList.add('mem_1');
+                            document.querySelectorAll('.description').forEach(d => d.classList.remove('displayed'));
+                            document.querySelectorAll('.description').forEach(d => d.classList.remove('visible'));
+                            document.querySelector('.description_1').classList.add('displayed');
+                            setTimeout(() => document.querySelector('.description_1').classList.add('visible'), 500)"></input>
+                            <label for="controller_1"></label>
+                        </div>
+                        <div class="controller">
+                            <input type="radio" name="radio" id="controller_2" onclick="document.querySelector('#mem_field').removeAttribute('class'); 
+                            document.querySelector('#mem_field').classList.add('mem_2');
+                            document.querySelectorAll('.description').forEach(d => d.classList.remove('displayed'));
+                            document.querySelectorAll('.description').forEach(d => d.classList.remove('visible'));
+                            document.querySelector('.description_2').classList.add('displayed');
+                            setTimeout(() => document.querySelector('.description_2').classList.add('visible'), 500)"></input>
+                            <label for="controller_2"></label>
+                        </div>
+                        <div class="controller">
+                            <input type="radio" name="radio" id="controller_3" onclick="document.querySelector('#mem_field').removeAttribute('class'); 
+                            document.querySelector('#mem_field').classList.add('mem_3');
+                            document.querySelectorAll('.description').forEach(d => d.classList.remove('displayed'));
+                            document.querySelectorAll('.description').forEach(d => d.classList.remove('visible'));
+                            document.querySelector('.description_3').classList.add('displayed');
+                            setTimeout(() => document.querySelector('.description_3').classList.add('visible'), 500)"></input>
+                            <label for="controller_3"></label>
+                        </div>
+                        <div class="controller">
+                            <input type="radio" name="radio" id="controller_4" onclick="document.querySelector('#mem_field').removeAttribute('class'); 
+                            document.querySelector('#mem_field').classList.add('mem_4');
+                            document.querySelectorAll('.description').forEach(d => d.classList.remove('displayed'));
+                            document.querySelectorAll('.description').forEach(d => d.classList.remove('visible'));
+                            document.querySelector('.description_4').classList.add('displayed');
+                            setTimeout(() => document.querySelector('.description_4').classList.add('visible'), 500)"></input>
+                            <label for="controller_4"></label>
+                        </div>
+                        <div class="controller">
+                            <input type="radio" name="radio" id="controller_5" onclick="document.querySelector('#mem_field').removeAttribute('class'); 
+                            document.querySelector('#mem_field').classList.add('mem_5')
+                            document.querySelectorAll('.description').forEach(d => d.classList.remove('displayed'));
+                            document.querySelectorAll('.description').forEach(d => d.classList.remove('visible'));
+                            document.querySelector('.description_5').classList.add('displayed');
+                            setTimeout(() => document.querySelector('.description_5').classList.add('visible'), 500)"></input>
+                            <label for="controller_5"></label>
+                        </div>
+                        <div class="controller">
+                            <input type="radio" name="radio" id="controller_6" onclick="document.querySelector('#mem_field').removeAttribute('class'); 
+                            document.querySelector('#mem_field').classList.add('mem_6');
+                            document.querySelectorAll('.description').forEach(d => d.classList.remove('displayed'));
+                            document.querySelectorAll('.description').forEach(d => d.classList.remove('visible'));
+                            document.querySelector('.description_6').classList.add('displayed');
+                            setTimeout(() => document.querySelector('.description_6').classList.add('visible'), 500)"></input>
+                            <label for="controller_6"></label>
+                        </div>
+                        <div class="controller">
+                            <input type="radio" name="radio" id="controller_7" onclick="document.querySelector('#mem_field').removeAttribute('class'); 
+                            document.querySelector('#mem_field').classList.add('mem_7');
+                            document.querySelectorAll('.description').forEach(d => d.classList.remove('displayed'));
+                            document.querySelectorAll('.description').forEach(d => d.classList.remove('visible'));
+                            document.querySelector('.description_7').classList.add('displayed');
+                            setTimeout(() => document.querySelector('.description_7').classList.add('visible'), 500)"></input>
+                            <label for="controller_7"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
