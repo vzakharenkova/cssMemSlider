@@ -107,13 +107,13 @@ label:hover, .controller:hover label {
 input[type=radio]:checked + label { 
     background-color: rgb(255, 255, 255);
 }
-@media (max-width: 1100px) {
+@media (max-width: 1150px) {
     #control_field {
         width: 40%;
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     #description_and_control_field {
         flex-direction: column-reverse;
     }
