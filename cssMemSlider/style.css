@@ -16,6 +16,7 @@
 #mem_field {
     width: 100%;
     height: 85%;
+    transition: background-image 1s ease 0.5s, padding 5s ease-out 0s;
 }
 #mem_field.mem_1 {
     background: url("../cssMemSlider/assets/mem1.jpg") center no-repeat;
@@ -53,7 +54,7 @@
     height: 10%;
 }
 #description_field {
-    width: 40%;
+    width: 60%;
     height: 90%;
     margin: 0 1%;
 }
@@ -62,6 +63,11 @@
     display: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 200%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in 0.1s;
+}
+.visible {
+    opacity: 1;
 }
 .displayed {
     display: block;
@@ -91,6 +97,7 @@ label {
     height: 90%;
     border-radius: 50%;
     background-color: rgb(87, 146, 255);
+    transition: all 0.5s ease-in 0.1s;
 }
 label:hover, .controller:hover label {
     background-color: rgb(10, 55, 138);
